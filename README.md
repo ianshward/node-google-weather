@@ -10,7 +10,7 @@ Fetch weather forecast from Google's weather API, return as javascript object.
 
 ### How to use
 
-var Weather = require('node-google-weather').Weather;
+`var Weather = require('node-google-weather').Weather;
 var weather = new Weather();
 
 var options = {
@@ -20,7 +20,7 @@ var options = {
   };
 weather.forecast(options, function(data) {
   // data will be an object with response
-})
+})`
 
 ### Credits
 
